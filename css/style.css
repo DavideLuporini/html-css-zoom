@@ -23,10 +23,6 @@ body{
     width: 90%;
     height: calc( 100vh - 170px);
     overflow-y: scroll;
-
-
-    background-color: green;
-    border: 4px dashed blue;
 }
 
 
@@ -37,10 +33,6 @@ body{
     width: 100vw;
     height: 70px;
     position: relative;
-
-
-    background-color: red;
-    border:  dashed yellow 2px;
 }
 
 
@@ -80,12 +72,28 @@ body{
 .card-utent{
     min-height: 130px;
     min-width: 180px;
-    background-color: yellow;
-    border: 2px solid grey;
     margin: 5px 2px;
+    position: relative;
+    background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
+    background-size: cover;
+    background-position: center;
 }
 
+.utent-name{
+    font-size: 10px;
+    padding: 3px 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(118,117,118,0.5);
+}
 
+.utent-name::before{
+    content: '\f131';
+    font-family: "Font awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
 
 /* footer */
 .main-footer{
@@ -93,6 +101,6 @@ body{
     height: 70px;
 
 
-    background-color: red;
+    background-color: grey;
     border:  dashed yellow 2px;
 } 
