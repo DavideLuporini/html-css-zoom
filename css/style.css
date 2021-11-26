@@ -18,8 +18,15 @@ body{
 }
 
 /* utilities */
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: calc( 100vh - 140px);
 
 
+    background-color: green;
+    border: 4px dashed blue;
+}
 
 
 
@@ -27,7 +34,7 @@ body{
 
 .main-header{
     width: 100vw;
-    min-height: 70px;
+    height: 70px;
     position: relative;
 
 
@@ -63,3 +70,17 @@ body{
 }
 
 /* main */
+
+
+
+
+
+
+.main-footer{
+    width: 100vw;
+    height: 70px;
+
+
+    background-color: red;
+    border:  dashed yellow 2px;
+} 
