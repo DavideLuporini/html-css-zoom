@@ -25,6 +25,10 @@ body{
     overflow-y: scroll;
 }
 
+.icon{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
 
 
 /* header-main */
@@ -96,11 +100,24 @@ body{
 }
 
 /* footer */
+footer{
+    font-size: 10px;
+}
 .main-footer{
     width: 100vw;
     height: 70px;
+    background-color: rgba(34,34,34,255);
+    display: flex;
+    align-items: center;
+}
+.btn-left{
+    margin-left: 10px;
+}
 
+ .btn-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
 
-    background-color: grey;
-    border:  dashed yellow 2px;
-} 
