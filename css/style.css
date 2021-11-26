@@ -19,9 +19,10 @@ body{
 
 /* utilities */
 .container{
-    margin: 0 auto;
+    margin: 15px auto;
     width: 90%;
-    height: calc( 100vh - 140px);
+    height: calc( 100vh - 170px);
+    overflow-y: scroll;
 
 
     background-color: green;
@@ -70,12 +71,23 @@ body{
 }
 
 /* main */
+.live-container{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-utent{
+    min-height: 130px;
+    min-width: 180px;
+    background-color: yellow;
+    border: 2px solid grey;
+    margin: 5px 2px;
+}
 
 
 
-
-
-
+/* footer */
 .main-footer{
     width: 100vw;
     height: 70px;
