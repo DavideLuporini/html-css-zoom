@@ -20,7 +20,7 @@ body{
 /* utilities */
 .container{
     margin: 15px auto;
-    width: 90%;
+    width: 95%;
     height: calc( 100vh - 170px);
     overflow-y: scroll;
 }
@@ -28,6 +28,10 @@ body{
 .icon{
     font-size: 1.2rem;
     margin-bottom: 5px;
+}
+
+.c-green{
+    color: green;
 }
 
 
@@ -68,7 +72,6 @@ body{
 
 /* main */
 .live-container{
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -76,7 +79,7 @@ body{
 .card-utent{
     min-height: 130px;
     min-width: 180px;
-    margin: 5px 2px;
+    margin: 5px 10px;
     position: relative;
     background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
     background-size: cover;
@@ -109,9 +112,7 @@ footer{
     background-color: rgba(34,34,34,255);
     display: flex;
     align-items: center;
-}
-.btn-left{
-    margin-left: 10px;
+    justify-content: space-between;
 }
 
  .btn-container{
@@ -119,5 +120,26 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
  }
+
+ .btn-left{
+     flex-basis: 10%;
+ }
+ .btn-middle{
+     flex-basis: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .btn-right{
+     flex-basis: 10%;
+     display: flex;
+     align-items: center;
+     background-color: gray;
+     color: red;
+     flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
 
