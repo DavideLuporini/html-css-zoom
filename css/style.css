@@ -19,9 +19,7 @@ body{
 
 /* utilities */
 .container{
-    margin: 15px auto;
-    width: 95%;
-    height: calc( 100vh - 170px);
+    height: calc( 100vh - 140px);
     overflow-y: scroll;
 }
 
